@@ -1,0 +1,27 @@
+@import "setup";
+@import "typography";
+
+// GLOBAL STYLES
+
+html {
+  background: url("../../assets/adrian-pelletier-399180-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 62.5%;
+}
+
+header {
+  height: 100vh;
+  .hero {
+    background: rgba(193, 66, 66, 0);
+    &__title {
+      font-family: $headingFont;
+      font-size: 6rem;
+      text-transform: uppercase;
+    }
+  }
+}
+
+main {
+  height: 100vh;
+}
