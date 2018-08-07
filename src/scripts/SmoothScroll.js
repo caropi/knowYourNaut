@@ -19,9 +19,6 @@ function smoothScroll(target,duration) {
         t--;
         return -c / 2 * (t * (t - 2) - 1) + b;
     } 
-
-    
-
     requestAnimationFrame(animation);
 }
 
@@ -32,5 +29,4 @@ var button = document.querySelector('.down__button');
 
 button.addEventListener('click', function() {
     smoothScroll('.carousel', 1000);
-
 });
