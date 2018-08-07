@@ -1,0 +1,1 @@
+import * as SmoothScroll from './SmoothScroll.js';
